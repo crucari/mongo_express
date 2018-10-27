@@ -4,12 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
   },
   "author": "Carina Cruz",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
   }
 }
